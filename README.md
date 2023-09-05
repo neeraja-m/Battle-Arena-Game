@@ -1,12 +1,12 @@
-COMP1202 Battle Arena coursework 
+** Battle Arena coursework **
 
-*** Part 1 ***
+** Part 1 **
 Character and Team class has been created according to the specification.
 The classes contain the required methods and variables.
 
 No additional variables or methods were added at this part.
 
-*** Part 2 ***
+** Part 2 **
 Student,AIStudent, CSStudent, CyberStudent, SEStudent classes have been created according to the specification.
 The classes contain the required methods and variables.
 
@@ -14,7 +14,7 @@ Additional getter and setter methods were added in the Character class and Stude
 These are used in each attack methods in Student class and in each attack within separate types of student classes.
 
 
-*** Part 3 ***
+** Part 3 **
 Monster interface, Minion and Boss Class has been created according to the specification.
 The classes and interface contain the required methods and variables.
 
@@ -22,7 +22,7 @@ Additional arraylist was created in Character class to add dead monsters to for 
 Additional method was added in Character class to remove dead members from the team passed in the method when called.
 
 
-*** Part 4 ***
+** Part 4 **
 StudentTeam and MonsterTeam, Guild classes have been created according to the specification.
 The classes contain the required methods and variables.
 
@@ -49,14 +49,14 @@ The class contains the required methods and variables.
 
 Battle class has an additional method report() which is called after each round to provide the current status all fighting teams.
 
-*** Part 6 ***
+** Part 6 **
 TowerOfMonsters class has been created according to the specification.
 The class contains the required methods and variables.
 
 It contains additional getLine and getMonsters methods to take each line of the file and make a monster team from it for each level.
 Once all members of student team has died, it uses remaining members in the guild to restart the battle lost. 
 
-*** Extension ***
+** Extension **
 
 3 new student types and 2 professors have been added: MechStudent, NanoTechStudent, AeroStudent, ElecProfessor, CSProfessor.
 A new Professor class has been added which extends character, and ElecProfessor and CSProfessor both extend Professor.
